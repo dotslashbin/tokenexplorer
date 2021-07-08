@@ -1,3 +1,6 @@
 import { combineReducers } from 'redux'
+import TokenReducer from './tokens/TokenReducer'
 
-export default combineReducers({})
+export default combineReducers({
+	TokenData: new TokenReducer().reducer,
+})
