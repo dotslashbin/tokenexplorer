@@ -5,7 +5,6 @@ import TokenAction from './TokenAction'
 
 export default class TokenReducer extends BaseReducer {
 	[TokenAction.REQUEST_GET_DETAILS](state: any, action: Type_Action) {
-		console.log('reducer --->', action)
 		return {
 			...state,
 		}
